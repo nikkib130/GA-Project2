@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+	<head>
+		<title>Nikki's Blog</title>
+		<link href="/normalize.css" rel="stylesheet">
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		<style> 
+			header {
+				text-align: center;
+				background: url("https://msdnshared.blob.core.windows.net/media/2016/05/2222222.png");
+				background-size: cover;
+				background-repeat: no-repeat;
+				color: black;
+			}
+			.menu {
+				color: white;
+				font-family: Comic Sans MS;
+			}
+			h1 {
+				font-size: 50px;
+				font-family: Comic Sans MS;
+			}
+			img {
+				margin: 30px 0px 0px 0px;
+				border: 5px solid black;
+      			border-radius: 50%;
+			}
+			ul {
+      			padding: 10px;
+      			background: rgba(0, 0, 0, 0.5);
+    		}
+    		li {
+      			display: inline;
+      			padding: 0px 40px 0px 40px;
+    		}
+    		article {
+    			font-family: Comic Sans MS;
+      			max-width: 1050px;
+      			padding: 20px;
+      			margin: 0 auto;
+    		}
+    		@media (max-width: 500px) {
+      			h1 {
+        			font-size: 36px;
+        			padding: 5px;
+      			}
+      			li {
+        			padding: 5px;
+        			display: block;
+      			}
+    		}
+    		.fa {
+    			cursor: pointer;
+    			user-select: none;
+			}
+			.fa-star {
+				color: orange;
+
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<img src="https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAArPAAAAJGI5M2MwNmVmLWIzM2UtNDE0Yy1iY2MwLWIyYTRkNjkzNDEyNQ.jpg">
+			<h1>Nikki's Blog of Awesomeness</h1>
+			<ul>
+				<li><a href="#" class="menu">Who Am I?</a></li>
+				<li><a href="#" class="menu">Amazing Weather</a></li>
+				<li><a href="#" class="menu">Cool Pics</a></li>
+			</ul>
+		</header>
+		<article>
+			<h2>Blizzard of '78</h2>
+			<p>The Blizzard of '78 took place on Monday, February 6th, 1978. The snow began ligtly falling around 10AM, but 1PM snow began falling at up to two inches per hour. Thousands of people were sent home from work early, but blizzard conditions soon stranded some 3,000 cars and 500 trucks on Route 128. Some were able to trudge through the snow to homes, offices and industrial parks that bordered 128. About 300 drivers were able to watch movies and eat popcorn while trapped a the Showcase Cinmena in Dedham. The wind in the Boston area peaked at about 70MPH. In other areas such as Hull, Revere, and Scituate the winds reached hurricane strength. Boston received a total of 27.1 inches of snow.</p>
+			<p>Source: <a href="http://www.blizzardof78.org/">blizzardof78.org</a> and <a href="http://archive.boston.com/news/weather/gallery/013108_78blizzard/">A look back at the Blizzard of 1978</a></p>
+			<p>Rating:
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+			</p>
+		</article>
+		<article>
+			<h2>Worcester Tornado</h2>
+			<p>The Worcester Tornado was a powerful F4 tornado that stuck Worcester, MA on June 9th, 1953. The storm destoryed Assumption College and caused $52 million dollars worth of damage. At the time, it was regarded as dangerous to report weather events such as 'tornadoes' because that may cause public panic. Instead the NWS at Tauton, MA issued its first ever 'Severe Thunderstorm Warning'.</p> 
+			<p>Source: <a href="https://www.boston.com/news/history/2017/06/09/remembering-the-tornado-that-ravaged-worcester" class="article-pics">The Boston Globe</a></p>
+			<p>Rating:
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+				<i onclick="myFunction(this)" class="fa fa-star-o"></i>
+			</p>
+			<script type="text/javascript">
+				function myFunction(x) {
+    				x.classList.toggle("fa-star");
+				}
+			</script>
+		</article>
+	</body>
